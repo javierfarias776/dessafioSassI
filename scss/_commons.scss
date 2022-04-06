@@ -1,0 +1,44 @@
+//variables globales
+
+$mainColor:orange;
+$secondColor:black;
+$keyColor:white;
+
+
+//sizing
+$w-100:100%;
+$w-75:75%;
+$w-50:50%;
+$w-25:25%;
+
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color:orange ;
+    color: black;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+        color:  white;
+        cursor: pointer;
+
+    }
+	
+ }
+
+.btn-color{
+    background-color: orange;
+    &:hover{
+    color:white ;
+    font-weight: 500;
+
+}
+
+
+
+
+
+
+}
